@@ -1,0 +1,39 @@
+<!--common/components/header.wxml-->
+
+<view class="header">
+    <view class="content-wrapper">
+      <view class="avatar">
+        <image src="../../image/logo.jpg" style="width:64px;height:64px;"></image>
+      </view>
+      
+      <view class="content">
+        
+        <view class="title">
+          <image src="../../image/brand@2x.png" style="width:30px;height:18px;"></image>
+          <span class="name">abc清晨小粥坊（莆院店）</span>
+        </view>
+        
+        <view class="description">
+            计科152专送-20分钟内火速送达
+        </view>
+
+        <view v-if="seller.supports" class="support">
+          <span class="icon" :class="classMap[seller.supports[0].type]">
+            <image src="../../image/decrease_1@2x.png" style="width:12px;height:12px;"></image>
+          </span>
+          <span class="text">在线支付满30减12，满50减20，满70减33</span>
+        </view>
+      
+      </view>
+    </view>
+    
+    <view class="bulletin-wrapper">
+      <image src="../../image/bulletin@2x.png" style="width:22px;height:12px;"></image>
+      <span class="bulletin-text">"abc清晨小粥坊其烹饪粥料的秘方源于中国千年古法，融和现代制作工艺，坚守纯天然、0添加的良心品质深得消费者青睐，粥类的引领品牌."</span>
+    </view>
+     
+     <view class="background">
+      <image src="../../image/background.jpg" style="width:100%;height:100%;"></image>
+     </view>
+
+  </view>

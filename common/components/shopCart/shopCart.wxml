@@ -1,0 +1,20 @@
+<!--common/components/shopCart/shopCart.wxml-->
+   <view>
+      <view class="shopCart">
+        <view class="content" bindtap="toggleList">
+          <view class="content-left">
+            <view class="logo-wrapper">
+              <view class="logo highlight">
+                <view class="iconfont icon-gouwuche highlight"></view>
+              </view> 
+            </view>
+            <view class="desc">另需配送费￥{{deliveryPrice}}元</view>
+          </view>         
+          <view class="content-right" catchtap="pay">
+            <view class="pay enough" :class="payClass">
+              <text >立即支付</text>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>

@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/goods/goods",
+    "pages/logs/logs",
+    "pages/rating/rating",
+    "pages/buss/buss"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#2ABBCC",
+    "selectedColor": "#2384E8",
+    "list": [
+      {
+        "iconPath": "image/home.png",
+        "pagePath": "pages/goods/goods",
+        "selectedIconPath": "image/home.png",
+        "text": "点餐"
+      },
+      {
+        "iconPath": "image/book.png",
+        "pagePath": "pages/rating/rating",
+        "selectedIconPath": "image/book.png",
+        "text": "评价"
+      },
+      {
+        "iconPath": "image/couple.png",
+        "pagePath": "pages/buss/buss",
+        "selectedIconPath": "image/couple.png",
+        "text": "商家"
+      }
+    ]
+  }
+}

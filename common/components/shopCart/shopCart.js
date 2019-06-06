@@ -1,0 +1,23 @@
+// common/components/shopCart/shopCart.js
+Component({
+  /**
+   * 组件的属性列表
+   */
+  properties: {
+
+  },
+
+  /**
+   * 组件的初始数据
+   */
+  data: {
+    deliveryPrice: 4,//配送費
+  },
+
+  /**
+   * 组件的方法列表
+   */
+  methods: {
+
+  }
+})
