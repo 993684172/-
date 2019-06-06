@@ -1,0 +1,79 @@
+/* pages/rating/rating.wxss */
+.rating
+{
+
+margin: 10px 33px;
+font-size: 14px;
+
+}
+.rating .all
+{
+  margin: 0  11px;
+  color: #2384E8;
+}
+
+.rating .new
+{
+  margin: 0  11px;
+  color:#9F7860;
+}
+
+.rating .good
+{
+  margin: 0  11px;
+  color:  #E4A813;
+}
+.rating .bad
+{
+  margin: 0  11px;
+  color: #2AB8CC;
+}
+
+
+.divLine{
+ background: #E0E3DA;
+ width: 100%;
+ height: 6rpx;
+}
+
+.ratingline
+{
+  margin-top: 10px;
+
+}
+
+.ratingline .rname
+{
+  margin-left: 33px;
+  font-size: 14px;
+  font-family:"微软雅黑";
+  
+}
+
+.ratingline .rdate
+{
+  float: right;
+  margin: 5px 33px;
+  font-size: 12px;
+  font-family:"微软雅黑";
+  color: #a7b1bb
+}
+
+.ratingline .rratingss
+{
+  margin: 3px 33px;
+  font-size: 14px;
+  font-family:"微软雅黑";
+}
+
+
+
+
+
+
+
+
+
+
+
+

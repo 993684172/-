@@ -1,0 +1,16 @@
+<!--pages/order/order.wxml-->
+
+<view>
+<!--head -->
+<header></header>
+<!--head -->
+
+<!--menu -->
+<menu></menu>
+<!--menu -->
+
+<!--shopCart-->
+<shopCart></shopCart>
+<!--shopCart-->
+
+</view>

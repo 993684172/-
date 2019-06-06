@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "header": "/common/components/header/header"
+  }
+}

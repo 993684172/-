@@ -1,0 +1,39 @@
+<!--pages/rating/rating.wxml-->
+
+<header></header>
+
+
+  <view class="rating">
+
+<ul>
+  
+  <li>
+    <a class="all">全部({{all}})</a>
+  </li>
+  <li>
+    <a class="new">最新</a>
+  </li>
+  <li>
+    <a class="good">好评({{good}})</a>
+  </li>
+  <li>
+    <a class="bad">差评({{bad}})</a>
+  </li>
+   
+</ul>
+
+  </view>
+  <view class="divLine"></view>
+  
+  <view class="ratingline">
+<scroll-view scroll-y="true" style="height: 500px;" class="ratinglines" >
+    <view wx:for="{{ratings}}"  >
+      <view  class="rname">{{item.name}}</view>
+      <view  class="rdate">{{item.date}}</view>
+      <view  class="rratingss">{{item.ratingss}}</view>
+      <view class="divLine"></view> 
+    </view>  
+  
+  </scroll-view>
+
+  </view>

@@ -1,0 +1,25 @@
+<!--index.wxml-->
+<view class="container">
+
+<view class="inex-view1">
+</view>
+
+<view class="inex-view2"><text>请完成小程序的授权以继续使用</text>
+</view>
+
+<view class="inex-view3">
+   <button class="btn-sq" open-type="getUserInfo" bindgetuserinfo="getUserInfo" >授权微信用户信息</button>
+   <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover" ></image>
+   <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+</view>
+
+
+  <!-- <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo">  </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover" ></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view> -->
+  
+</view>

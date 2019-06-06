@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "header": "/common/components/header/header",
+    "menu":"/common/components/menu/menu",
+    "shopCart":"/common/components/shopCart/shopCart"
+    
+  }
+}
